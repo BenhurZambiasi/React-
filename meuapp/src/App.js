@@ -1,7 +1,9 @@
-import React from 'react';
+
+import Exerc01 from './Exerc_01';
+import Exerc02 from './Exerc_02';
 
 const App = () => {
-  return <div>Meu App Teste</div>;
-};
 
+  return Exerc02
+}
 export default App;
