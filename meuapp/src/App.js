@@ -5,16 +5,14 @@ import React from 'react'
 //import Exerc03 from './Exerc03/Exerc_03';
 //import Exerc04 from './Exerc04/Exerc_04';
 import Exerc05 from './Exerc05/Exerc_05';
-import Teste from './teste/App';
+import UseRef from './UseRef';
 
 
 
 const App = () => {
 
-  //return <Teste />
-  return (
-    <>
-      <Exerc05 />
-    </>)
+
+  return <UseRef />
+
 }
 export default App;
