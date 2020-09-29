@@ -1,12 +1,14 @@
 
 import React from 'react'
+import UseRef from './UseRef';
+import UserContext from './UserContext/UserContext';
 import Exerc01 from './Exerc_01';
 import Exerc02 from './Exerc_02';
 import Exerc03 from './Exerc03/Exerc_03';
 import Exerc04 from './Exerc04/Exerc_04';
 import Exerc05 from './Exerc05/Exerc_05';
-import UseRef from './UseRef';
-import UserContext from './UserContext/UserContext';
+import Exerc06 from './Exerc06/Exerc_06';
+
 
 
 
@@ -36,6 +38,8 @@ const App = () => {
       <h1>Exercício 05</h1>
       <Exerc05 />
       <hr />
+      <h1>Exercício 06</h1>
+      <Exerc06 />
 
 
 
