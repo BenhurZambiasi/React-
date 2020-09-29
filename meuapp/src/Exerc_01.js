@@ -7,7 +7,7 @@ import React from 'react';
 
 */
 
-function Exerc() {
+const Exerc = () => {
 
   const luana = {
     cliente: 'Luana',
@@ -45,4 +45,4 @@ function Exerc() {
   );
 };
 
-export default Exerc();
+export default Exerc;

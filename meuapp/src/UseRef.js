@@ -27,13 +27,9 @@ const UseRef = () => {
     setContar(contar + 1);
   }
 
-
-
-
-
-
   return (
     <div>
+      <h4>Simulação de chat</h4>
       <ul>
         {comentarios.map((comentario) => (
           <li key={comentario}>{comentario}</li>
@@ -43,8 +39,9 @@ const UseRef = () => {
       />
       <br />
       <button onClick={handleClick}>Enviar</button>
-      <hr />
+      <br />
       <div>
+        <h4>Carrinho de compras</h4>
         <p>{notificacao}</p>
         <button onClick={handleClickCarrinho}>{contar}</button>
       </div>

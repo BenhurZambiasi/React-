@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Exec() {
+const Exerc = () => {
   const produtos = [
     {
       id: 1,
@@ -37,4 +37,4 @@ function Exec() {
     </section>)
 }
 
-export default Exec();
+export default Exerc;

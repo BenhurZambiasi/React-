@@ -3,7 +3,7 @@ import Header from './Header'
 import Home from './Home'
 import Produtos from './Produtos'
 
-function Exerc() {
+const Exerc = () => {
   let Pagina;
   const { pathname } = window.location;
   if (pathname === '/produtos') {
@@ -19,4 +19,4 @@ function Exerc() {
   )
 }
 
-export default Exerc();
+export default Exerc;

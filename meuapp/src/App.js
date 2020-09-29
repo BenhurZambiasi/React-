@@ -1,18 +1,45 @@
 
 import React from 'react'
-// import Exerc01 from './Exerc_01';
-// import Exerc02 from './Exerc_02';
-//import Exerc03 from './Exerc03/Exerc_03';
-//import Exerc04 from './Exerc04/Exerc_04';
+import Exerc01 from './Exerc_01';
+import Exerc02 from './Exerc_02';
+import Exerc03 from './Exerc03/Exerc_03';
+import Exerc04 from './Exerc04/Exerc_04';
 import Exerc05 from './Exerc05/Exerc_05';
 import UseRef from './UseRef';
+import UserContext from './UserContext/UserContext';
 
 
 
 const App = () => {
 
 
-  return <UseRef />
+  return (
+    <>
+      <h1>UseContext</h1>
+      <UserContext />
+      <hr />
+      <h1>UseRef</h1>
+      <UseRef />
+      <hr />
+      <h1>Exercício 01</h1>
+      <Exerc01 />
+      <hr />
+      <h1>Exercício 02</h1>
+      <Exerc02 />
+      <hr />
+      <h1>Exercício 03</h1>
+      <Exerc03 />
+      <hr />
+      <h1>Exercício 04</h1>
+      <Exerc04 />
+      <hr />
+      <h1>Exercício 05</h1>
+      <Exerc05 />
+      <hr />
+
+
+
+    </>)
 
 }
 export default App;
