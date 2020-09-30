@@ -28,8 +28,7 @@ const Form = () => {
         <input id="email" name="email" value={email} type="email" onChange={(event) => setEmail(event.target.value)} />
         <button>Enviar</button>
       </form>
-
-      <hr />
+      <p>-----***------</p>
 
       <form onSubmit={handleSubmit}>
         <label htmlFor="nome">Nome</label>

@@ -1,18 +1,19 @@
 
 import React from 'react'
-// import UseRef from './UseRef';
-// import UserContext from './UserContext/UserContext';
-// import Exerc01 from './Exerc_01';
-// import Exerc02 from './Exerc_02';
-// import Exerc03 from './Exerc03/Exerc_03';
-// import Exerc04 from './Exerc04/Exerc_04';
-// import Exerc05 from './Exerc05/Exerc_05';
-// import Exerc06 from './Exerc06/Exerc_06';
+import UseRef from './UseRef';
+import UserContext from './UserContext/UserContext';
+import Exerc01 from './Exerc_01';
+import Exerc02 from './Exerc_02';
+import Exerc03 from './Exerc03/Exerc_03';
+import Exerc04 from './Exerc04/Exerc_04';
+import Exerc05 from './Exerc05/Exerc_05';
+import Exerc06 from './Exerc06/Exerc_06';
 import Form from './Form';
+import Exerc07 from './Exerc07/Exerc_07';
 
 const App = () => {
 
-  return <Form />
+  return <Exerc07 />
 }
 
 
@@ -21,6 +22,9 @@ const App = () => {
 
 //   return (
 //     <>
+//       <h1>Form imput</h1>
+//       <Form />
+//       <hr />
 //       <h1>UseContext</h1>
 //       <UserContext />
 //       <hr />
@@ -44,9 +48,6 @@ const App = () => {
 //       <hr />
 //       <h1>Exercício 06</h1>
 //       <Exerc06 />
-
-
-
 //     </>)
 
 // }
