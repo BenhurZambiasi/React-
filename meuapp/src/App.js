@@ -10,10 +10,11 @@ import Exerc05 from './Exerc05/Exerc_05';
 import Exerc06 from './Exerc06/Exerc_06';
 import Form from './Form';
 import Exerc07 from './Exerc07/Exerc_07';
+import Desafio from './DesafioForm/Desafio';
 
 const App = () => {
 
-  return <Exerc07 />
+  return <Desafio />
 }
 
 
