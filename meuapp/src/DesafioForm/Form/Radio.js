@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Radio = ({ pergunta, options, id, onChange, value }) => {
+const Radio = ({ pergunta, options, id, onChange, value, active }) => {
 
 
-
+  if (active === false) return null;
 
 
   return (
