@@ -1,0 +1,11 @@
+.container{
+  overflow: hidden;
+}
+
+.conteudo{
+  display: flex;
+}
+
+.item{
+  width: 80%;
+}
