@@ -40,3 +40,15 @@
   width: 3rem;
   border-radius: 0.2rem;
 }
+
+.div{
+  background: red;
+}
+.ckeck{
+  border-radius: 50%;
+}
+.check:focus {
+ 
+
+  box-shadow: 0 0 0 5px  #fea;
+}

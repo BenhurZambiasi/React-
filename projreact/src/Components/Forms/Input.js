@@ -19,6 +19,8 @@ const Input = ({ label, type, name, value, onChange, error, onBlur }) => {
       {error && <p className={styles.error}>{error}</p>}
     </div>
   );
+
+ 
 };
 
 export default Input;

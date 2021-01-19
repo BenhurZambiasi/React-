@@ -9,6 +9,7 @@ export const UserStorage = ({ children }) => {
   const [login, setLogin] = React.useState(null);
   const [loading, setLoading] = React.useState(false);
   const [error, setError] = React.useState(null);
+  
   const navigate = useNavigate();
 
   const userLogout = React.useCallback(
@@ -42,6 +43,7 @@ export const UserStorage = ({ children }) => {
       window.localStorage.setItem('token', token);
       await getUser(token);
       navigate('/conta');
+
     } catch (err) {
       setError(err.message);
       setLogin(false);

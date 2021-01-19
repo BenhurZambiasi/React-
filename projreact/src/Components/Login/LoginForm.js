@@ -12,6 +12,7 @@ const LoginForm = () => {
   const username = useForm();
   const password = useForm();
 
+
   const { userLogin, error, loading } = React.useContext(UserContext);
 
   async function handleSubmit(event) {
@@ -28,11 +29,11 @@ const LoginForm = () => {
       <form className={styles.form} onSubmit={handleSubmit}>
         <Input label="Usuário" type="text" name="username" {...username} />
         <Input label="Senha" type="password" name="password" {...password} />
-        {loading ? (
-          <Button disabled>Carregando...</Button>
-        ) : (
-            <Button>Entrar</Button>
-          )}
+        <div className={styles.div}>
+          <input className={styles.check} type="checkbox" name="" id="" />
+        </div>
+
+        {loading ? (<Button disabled>Carregando...</Button>) : (<Button>Entrar</Button>)}
         <Error error={error} />
       </form>
       <Link className={styles.perdeu} to="/login/perdeu">
